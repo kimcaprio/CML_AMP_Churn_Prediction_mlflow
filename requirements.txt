@@ -1,12 +1,13 @@
 git+https://github.com/fastforwardlabs/cmlbootstrap#egg=cmlbootstrap
 dill==0.3.1.1
-lime==0.1.1.36 
-scikit-learn==0.21.3 
+lime==0.1.1.36
+scikit-learn>=0.24.2  # 최신 버전으로 업데이트
 xlrd==1.2.0
-pandas==1.1.5
-numpy==1.19.5
+pandas>=1.2.0  # 호환성을 위해 업데이트
+numpy>=1.20.0  # 호환성을 위해 업데이트
 flask==1.1.4
 tqdm==4.62.3
 seaborn==0.11.2
 markupsafe==2.0.1
 -e .
+setuptools<60.0  # setuptools 버전을 59.5.0 이하로 설정
