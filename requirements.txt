@@ -11,3 +11,4 @@ seaborn==0.11.2
 markupsafe==2.0.1
 -e .
 setuptools<60.0  # setuptools 버전을 59.5.0 이하로 설정
+pyspark
